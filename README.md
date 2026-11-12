@@ -4,16 +4,29 @@ Kortfattade exempel för dig som är ny i kursen.
 
 ---
 
+## Mål
+
+- Kunna skilja på Git och GitHub
+- Kunna ladda upp ett projekt till GitHub
+- Kunna skriva en README i Markdown
+- Kunna använda VS Code för HTML och CSS
+
+---
+
 ## 1. Git & GitHub
 
 **Git** = versionshantering på din dator (körs i terminalen).
 **GitHub** = webbsida där du lagrar och delar dina repon.
+
+---
 
 ### Första gången – ange vem du är
 ```bash
 git config --global user.name "Ditt Namn"
 git config --global user.email "din@mejl.se"
 ```
+
+---
 
 ### Från mapp till GitHub
 ```bash
@@ -26,6 +39,8 @@ git remote add origin https://github.com/<användarnamn>/<repo>.git
 git push -u origin main                              # ladda upp till GitHub
 ```
 
+---
+
 ### När du ändrat något
 ```bash
 git status                    # vad har ändrats?
@@ -33,6 +48,10 @@ git add .
 git commit -m "Beskriv ändringen"
 git push
 ```
+
+---
+
+### Fler kommandon
 
 | Kommando | Gör |
 |---|---|
@@ -62,6 +81,8 @@ README.md skrivs i Markdown – en förenklad variant av HTML.
 | `` `kod` `` | `kod` |
 | `> citat` | indraget citat |
 
+---
+
 **Kodblock** – tre backticks och språket:
 
 ~~~markdown
@@ -81,6 +102,8 @@ README.md skrivs i Markdown – en förenklad variant av HTML.
    - **Live Server** (Ritwick Dey) – visar webbsidan direkt i webbläsaren
    - **Lorem Ipsum** (Daniel Imms) – fyller på med testtext
 
+---
+
 ### Bra kortkommandon
 | Kortkommando | Gör |
 |---|---|
@@ -89,6 +112,8 @@ README.md skrivs i Markdown – en förenklad variant av HTML.
 | `Ctrl + Shift + V` | Förhandsgranska Markdown |
 | `Alt + Shift + F` | Formatera koden |
 | `Ctrl + #` | Kommentera rad (svenskt tangentbord) |
+
+---
 
 ### Emmet – skriv mindre kod
 | Skriv + `Tab` | Blir |
@@ -103,6 +128,8 @@ README.md skrivs i Markdown – en förenklad variant av HTML.
 ## 4. HTML & CSS
 
 **HTML** = innehåll och struktur. **CSS** = utseende.
+
+---
 
 ### index.html
 ```html
@@ -121,6 +148,8 @@ README.md skrivs i Markdown – en förenklad variant av HTML.
 </body>
 </html>
 ```
+
+---
 
 ### style.css
 ```css
@@ -143,6 +172,10 @@ h1 {
 }
 ```
 
+---
+
+### CSS-väljare
+
 | CSS-väljare | Träffar |
 |---|---|
 | `h1` | alla `<h1>` |
@@ -153,4 +186,4 @@ h1 {
 
 ---
 
-*Skapad av Mohamed Hussein – Interaktionsdesign, MDU, HT2026*
+(C) Mohamed Hussein – Interaktionsdesign, MDU, HT2026
